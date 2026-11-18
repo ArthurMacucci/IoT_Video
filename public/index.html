@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EstuLanches – Cantina Escolar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>🥪 EstuLanches</h1><p>Cardápio e pedidos da cantina escolar</p></header>
+  <main>
+    <section>
+      <h2>Cardápio</h2>
+      <ul id="cardapio" class="lista"></ul>
+    </section>
+    <section>
+      <h2>Seu pedido</h2>
+      <ul id="carrinho" class="lista"></ul>
+      <p><strong>Total: <span id="total">R$ 0,00</span></strong></p>
+      <input id="cliente" placeholder="Seu nome" maxlength="80">
+      <button id="enviar">Fazer pedido</button>
+      <p id="msg" role="status"></p>
+    </section>
+    <section>
+      <h2>Painel da cantina (administrador)</h2>
+      <input id="chave" type="password" placeholder="Chave de administrador">
+      <button id="carregar">Ver pedidos</button>
+      <ul id="pedidos" class="lista"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

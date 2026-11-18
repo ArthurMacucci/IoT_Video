@@ -1,0 +1,4 @@
+Coloque aqui as fotos do cardapio (formato .jpg), com estes nomes:
+coxinha.jpg, pao-de-queijo.jpg, misto-quente.jpg, suco-natural.jpg, bolo-de-cenoura.jpg
+Produto novo: o nome do arquivo e o nome do produto sem acento, em minusculas e com hifen (ex.: "Pastel de Carne" -> pastel-de-carne.jpg).
+Sem foto, o sistema mostra um emoji. Depois de adicionar fotos: docker compose up -d --build
